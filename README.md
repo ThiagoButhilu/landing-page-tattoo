@@ -63,7 +63,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### GitHub Pages
+
+Este projeto está configurado para ser publicado no GitHub Pages.
+
+**Para fazer o deploy:**
+
+1. Certifique-se de que todas as alterações foram commitadas:
+   ```bash
+   git add .
+   git commit -m "Sua mensagem de commit"
+   git push origin main
+   ```
+
+2. Execute o comando de deploy:
+   ```bash
+   npm run deploy
+   ```
+
+Este comando irá:
+- Fazer o build da aplicação (`npm run build`)
+- Publicar os arquivos na branch `gh-pages` do repositório
+- Tornar o site acessível em: https://thiagobuthilu.github.io/landing-page-tattoo
+
+**Nota:** Após o primeiro deploy, você precisa habilitar o GitHub Pages nas configurações do repositório:
+1. Vá em Settings > Pages
+2. Em "Source", selecione a branch `gh-pages` e a pasta `/ (root)`
+3. Salve as alterações
+
+Para atualizar o site, basta executar `npm run deploy` novamente após fazer alterações.
 
 ### `npm run build` fails to minify
 

@@ -2,17 +2,18 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import IMG2733 from '../assets/images/IMG_2733.jpg';
 import IMG2734 from '../assets/images/IMG_2734.jpg';
-import IMG2735 from '../assets/images/IMG_2735.jpg';
-import IMG2736 from '../assets/images/IMG_2736.jpg';
-import IMG2738 from '../assets/images/IMG_2738.jpg';
 import IMG2739 from '../assets/images/IMG_2739.jpg';
+import IMG2740 from '../assets/images/Captura_de_tela_2026-01-07_013309.png';
+import IMG2741 from '../assets/images/Captura_de_tela_2026-01-07_013220.png';
+import IMG2742 from '../assets/images/Captura_de_tela_2026-01-07_013244.png';
+import IMG2743 from '../assets/images/Captura_de_tela_2026-01-07_013203.png';
 
 const InstagramFeed = () => {
   const instagramPosts = [
-    { id: 1, image: IMG2735, likes: 245, comments: 12 },
-    { id: 2, image: IMG2736, likes: 189, comments: 8 },
-    { id: 3, image: IMG2738, likes: 312, comments: 15 },
-    { id: 4, image: IMG2739, likes: 278, comments: 10 },
+    { id: 1, image: IMG2740, likes: 278, comments: 10 },
+    { id: 2, image: IMG2741, likes: 278, comments: 10 },
+    { id: 3, image: IMG2742, likes: 278, comments: 10 },
+    { id: 4, image: IMG2743, likes: 278, comments: 10 },
     { id: 5, image: IMG2733, likes: 201, comments: 9 },
     { id: 6, image: IMG2734, likes: 267, comments: 11 },
   ];

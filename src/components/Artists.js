@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import luanImage from '../assets/images/luan.png';
 
 const Artists = () => {
   return (
@@ -32,7 +33,7 @@ const Artists = () => {
           >
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" 
+                src={luanImage} 
                 alt="Luan - Artista Tatuador"
                 className="w-full h-full object-cover"
               />
