@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/landing-page-tattoo/static/css/main.8e93ba6c.css",
+    "main.js": "/landing-page-tattoo/static/js/main.2c1c8824.js",
+    "static/js/453.fe72ec71.chunk.js": "/landing-page-tattoo/static/js/453.fe72ec71.chunk.js",
+    "static/media/lucas-lenzi-zeT_i6av9rU-unsplash.jpg": "/landing-page-tattoo/static/media/lucas-lenzi-zeT_i6av9rU-unsplash.3ee636b59e1455266ef3.jpg",
+    "static/media/IMG_2733.jpg": "/landing-page-tattoo/static/media/IMG_2733.c3b6f573981ef1f833be.jpg",
+    "static/media/IMG_2734.jpg": "/landing-page-tattoo/static/media/IMG_2734.311cd731f896f658284e.jpg",
+    "static/media/IMG_2738.jpg": "/landing-page-tattoo/static/media/IMG_2738.f711864366d5bf7fbde1.jpg",
+    "static/media/IMG_2739.jpg": "/landing-page-tattoo/static/media/IMG_2739.84f27be99c79d0af445a.jpg",
+    "static/media/IMG_2736.jpg": "/landing-page-tattoo/static/media/IMG_2736.ea589929a6562c5f5690.jpg",
+    "static/media/IMG_2735.jpg": "/landing-page-tattoo/static/media/IMG_2735.f8129b07709b16446969.jpg",
+    "index.html": "/landing-page-tattoo/index.html",
+    "main.8e93ba6c.css.map": "/landing-page-tattoo/static/css/main.8e93ba6c.css.map",
+    "main.2c1c8824.js.map": "/landing-page-tattoo/static/js/main.2c1c8824.js.map",
+    "453.fe72ec71.chunk.js.map": "/landing-page-tattoo/static/js/453.fe72ec71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e93ba6c.css",
+    "static/js/main.2c1c8824.js"
+  ]
+}
