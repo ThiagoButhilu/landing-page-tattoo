@@ -28,7 +28,7 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'bg-black backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
-      <nav className="container mx-auto px-6 py-6">
+      <nav className="container mx-auto px-6 py-6 relative">
         <div className="flex items-center justify-between">
           {/* Logo - Esquerda */}
           <div className="flex-shrink-0">
@@ -40,8 +40,8 @@ const Header = () => {
             </a>
           </div>
 
-          {/* Menu - Centro */}
-          <div className="flex-1 flex items-center justify-center">
+          {/* Menu - Centro (absoluto para centralização perfeita) */}
+          <div className="absolute left-1/2 transform -translate-x-1/2">
             <div className="flex items-center space-x-8">
               <a 
                 href="#artists" 
@@ -58,24 +58,17 @@ const Header = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a 
-                href="#contact" 
+                href="#quote" 
                 className="relative text-white uppercase text-sm font-semibold transition-all duration-300 hover:text-white hover:scale-105 group py-2"
               >
                 CONTATO
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </a>
               <a 
-                href="#gift-cards" 
+                href="#fotos" 
                 className="relative text-white uppercase text-sm font-semibold transition-all duration-300 hover:text-white hover:scale-105 group py-2"
               >
-                VALE PRESENTE
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
-              </a>
-              <a 
-                href="#shop" 
-                className="relative text-white uppercase text-sm font-semibold transition-all duration-300 hover:text-white hover:scale-105 group py-2"
-              >
-                LOJA
+                FOTOS
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </a>
             </div>

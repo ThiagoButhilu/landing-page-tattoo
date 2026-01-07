@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Quote = () => {
   return (
-    <section className="py-20 px-6 bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
+    <section id="quote" className="py-20 px-6 bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
       {/* Efeito de fundo decorativo */}
       <motion.div 
         className="absolute inset-0 opacity-10"
