@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import needleImage from '../assets/images/149786-200.png';
+import backgroundImage from '../assets/images/bgAbout.png';
 
 const About = () => {
   const skills = [
@@ -23,9 +24,43 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-16 px-6 bg-white">
+    <section id="about" className="py-16 px-6 relative bg-white">
+      {/* Background Image com Animação */}
       <motion.div 
-        className="container mx-auto max-w-6xl"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{
+          backgroundImage: `url(${backgroundImage})`
+        }}
+        initial={{ opacity: 0, scale: 1.1, x: 0, y: 0 }}
+        whileInView={{ opacity: 0.2 }}
+        viewport={{ once: true }}
+        animate={{
+          x: [0, 20, -20, 0],
+          y: [0, -15, 15, 0],
+          scale: [1, 1.05, 1, 1.05, 1],
+        }}
+        transition={{
+          opacity: { duration: 1 },
+          x: {
+            duration: 15,
+            repeat: Infinity,
+            ease: "easeInOut"
+          },
+          y: {
+            duration: 12,
+            repeat: Infinity,
+            ease: "easeInOut"
+          },
+          scale: {
+            duration: 10,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }
+        }}
+      />
+      
+      <motion.div 
+        className="container mx-auto max-w-6xl relative z-10"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
@@ -58,9 +93,7 @@ const About = () => {
               e um estilo inconfundível. Oferecemos preços justos e transparentes, sem comprometer 
               a qualidade - porque acreditamos que arte de excelência deve ser acessível a todos.
             </p>
-            <button className="px-8 py-3 border-2 border-black bg-transparent text-black uppercase font-semibold hover:bg-black hover:text-white transition-colors">
-              Saiba Mais
-            </button>
+            
           </motion.div>
 
           <motion.div 
