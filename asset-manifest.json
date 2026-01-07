@@ -1,9 +1,14 @@
 {
   "files": {
     "main.css": "/landing-page-tattoo/static/css/main.8e93ba6c.css",
-    "main.js": "/landing-page-tattoo/static/js/main.2c1c8824.js",
+    "main.js": "/landing-page-tattoo/static/js/main.d6bcc7da.js",
     "static/js/453.fe72ec71.chunk.js": "/landing-page-tattoo/static/js/453.fe72ec71.chunk.js",
+    "static/media/Captura_de_tela_2026-01-07_013309.png": "/landing-page-tattoo/static/media/Captura_de_tela_2026-01-07_013309.224908abade5222579f0.png",
+    "static/media/luan.png": "/landing-page-tattoo/static/media/luan.8a96a0efa000aa456716.png",
     "static/media/lucas-lenzi-zeT_i6av9rU-unsplash.jpg": "/landing-page-tattoo/static/media/lucas-lenzi-zeT_i6av9rU-unsplash.3ee636b59e1455266ef3.jpg",
+    "static/media/Captura_de_tela_2026-01-07_013220.png": "/landing-page-tattoo/static/media/Captura_de_tela_2026-01-07_013220.75ade851fd63a884a7f9.png",
+    "static/media/Captura_de_tela_2026-01-07_013244.png": "/landing-page-tattoo/static/media/Captura_de_tela_2026-01-07_013244.4b1abedbb07541bf9945.png",
+    "static/media/Captura_de_tela_2026-01-07_013203.png": "/landing-page-tattoo/static/media/Captura_de_tela_2026-01-07_013203.fc70f7082f294cbac8d9.png",
     "static/media/IMG_2733.jpg": "/landing-page-tattoo/static/media/IMG_2733.c3b6f573981ef1f833be.jpg",
     "static/media/IMG_2734.jpg": "/landing-page-tattoo/static/media/IMG_2734.311cd731f896f658284e.jpg",
     "static/media/IMG_2738.jpg": "/landing-page-tattoo/static/media/IMG_2738.f711864366d5bf7fbde1.jpg",
@@ -12,11 +17,11 @@
     "static/media/IMG_2735.jpg": "/landing-page-tattoo/static/media/IMG_2735.f8129b07709b16446969.jpg",
     "index.html": "/landing-page-tattoo/index.html",
     "main.8e93ba6c.css.map": "/landing-page-tattoo/static/css/main.8e93ba6c.css.map",
-    "main.2c1c8824.js.map": "/landing-page-tattoo/static/js/main.2c1c8824.js.map",
+    "main.d6bcc7da.js.map": "/landing-page-tattoo/static/js/main.d6bcc7da.js.map",
     "453.fe72ec71.chunk.js.map": "/landing-page-tattoo/static/js/453.fe72ec71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e93ba6c.css",
-    "static/js/main.2c1c8824.js"
+    "static/js/main.d6bcc7da.js"
   ]
 }
